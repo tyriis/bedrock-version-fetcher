@@ -1,0 +1,29 @@
+{
+  "name": "bedrock-version-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^13.9.1",
+    "@types/node-fetch": "^2.5.5",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@strg/logging-winston": "^1.0.6",
+    "@typescript-eslint/parser": "^2.24.0",
+    "beautiful-dom": "^1.0.7",
+    "dotenv": "^8.2.0",
+    "htmlparser2": "^4.1.0",
+    "jslint": "^0.12.1",
+    "node-fetch": "^2.6.0",
+    "ts-node": "^8.6.2"
+  }
+}
