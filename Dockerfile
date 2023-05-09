@@ -15,4 +15,4 @@ COPY --from=build /app /app
 # switch to user node (uid=1000)
 USER node
 
-CMD [ "npm", "start"]
+CMD [ "node", "src/index.mjs"]
