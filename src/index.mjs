@@ -22,7 +22,7 @@ try {
   })
   parser.write(body)
   parser.end()
-  if (version) {
+  if (!version) {
     throw new Error("no version found!")
   }
   console.info(version)
