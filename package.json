@@ -1,29 +1,21 @@
 {
   "name": "bedrock-version-fetcher",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "parse the bedrock server version from the website",
+  "main": "src/index.mjs",
   "scripts": {
-    "dev": "ts-node src/index.ts",
+    "start": "node src/index.mjs",
+    "lint": "eslint --ext \".js,.mjs\" --ignore-path .gitignore .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/dotenv": "^8.2.0",
-    "@types/node": "^13.9.1",
-    "@types/node-fetch": "^2.5.5",
-    "typescript": "^3.8.3"
-  },
+  "license": "MIT",
   "dependencies": {
-    "@strg/logging-winston": "^1.0.6",
-    "@typescript-eslint/parser": "^2.24.0",
-    "beautiful-dom": "^1.0.7",
-    "dotenv": "^8.2.0",
-    "htmlparser2": "^4.1.0",
-    "jslint": "^0.12.1",
-    "node-fetch": "^3.2.10",
-    "ts-node": "^8.6.2"
+    "htmlparser2": "8.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.40.0",
+    "eslint-config-prettier": "^8.8.0"
   }
 }
