@@ -1,16 +1,13 @@
 /* eslint-env node */
 module.exports = {
-  "extends": [
-    "eslint:recommended",
-    "prettier",
-  ],
-  "parserOptions": {
-    "sourceType": "module",
-    "ecmaVersion": 13,
+  extends: ["eslint:recommended", "prettier"],
+  parserOptions: {
+    sourceType: "module",
+    ecmaVersion: 13,
   },
-  "rules": {
+  rules: {
     "object-curly-spacing": ["warn", "always"],
-    "no-console": "warn"
+    "no-console": "warn",
   },
-  "globals": { "fetch": false, "console": false }
+  globals: { fetch: false, console: false, process: false },
 }
