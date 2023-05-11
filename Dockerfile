@@ -15,4 +15,6 @@ COPY --from=build /app /app
 # switch to user node (uid=1000)
 USER node
 
-CMD [ "node", "src/index.mjs"]
+COPY entrypoint.sh /entrypoint.sh
+
+ENTRYPOINT ["/entrypoint.sh"]

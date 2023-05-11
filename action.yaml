@@ -1,0 +1,9 @@
+---
+name: Bedrock Version Fetcher
+description: Get the latest Minecraft Bedrock version
+outputs:
+  version:
+    description: The latest Minecraft Bedrock version
+runs:
+  using: docker
+  image: Dockerfile
