@@ -12,11 +12,11 @@ WORKDIR /app
 
 COPY --from=build /app /app
 
-# switch to user node (uid=1000)
-USER node
-
 COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh
+
+# switch to user node (uid=1000)
+USER node
 
 ENTRYPOINT ["/entrypoint.sh"]
