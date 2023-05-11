@@ -1,5 +1,5 @@
 #!/bin/sh -l
 
-version=$(node src/index.mjs)
+version=$(node /app/src/index.mjs)
 
 echo "version=$version" >> $GITHUB_OUTPUT
