@@ -1,6 +1,6 @@
 {
   "name": "bedrock-version-fetcher",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "parse the bedrock server version from the website",
   "main": "src/index.mjs",
   "scripts": {
