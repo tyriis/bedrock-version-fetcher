@@ -12,7 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "htmlparser2": "8.0.2"
+    "htmlparser2": "9.0.0"
   },
   "devDependencies": {
     "eslint": "8.40.0",
