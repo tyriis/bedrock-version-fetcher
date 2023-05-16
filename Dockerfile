@@ -1,4 +1,4 @@
-FROM node:20.1.0-alpine AS build
+FROM node:20.2.0-alpine AS build
 
 WORKDIR /app
 
@@ -6,7 +6,7 @@ COPY . .
 
 RUN npm ci --production
 
-FROM node:20.1.0-alpine
+FROM node:20.2.0-alpine
 
 WORKDIR /app
 
