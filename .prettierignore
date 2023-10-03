@@ -1,4 +1,4 @@
-*.sops.*
-gotk-components.yaml
-**/.terraform/**
-terraform.tfstate*
+dist/
+lib/
+node_modules/
+pnpm-lock.yaml

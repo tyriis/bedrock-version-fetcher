@@ -1,13 +1,23 @@
-/* eslint-env node */
 module.exports = {
-  extends: ["eslint:recommended", "prettier"],
+  root: true,
+  env: {
+    es2021: true,
+    node: true,
+  },
+  extends: 'standard',
+  overrides: [
+    {
+      files: ['.eslintrc.{js,cjs}'],
+      parserOptions: {
+        sourceType: 'script',
+      },
+    },
+  ],
   parserOptions: {
-    sourceType: "module",
-    ecmaVersion: 13,
+    ecmaVersion: 'latest',
+    sourceType: 'module',
   },
   rules: {
-    "object-curly-spacing": ["warn", "always"],
-    "no-console": "warn",
+    'comma-dangle': ['error', 'always-multiline'],
   },
-  globals: { fetch: false, console: false, process: false },
 }
