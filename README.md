@@ -53,7 +53,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Fetch Bedrock Version
-        uses: tyriis/bedrock-version-fetcher@v2
+        uses: tyriis/bedrock-version-fetcher@v3
         id: bedrock
       - name: print the bedrock veesion
         run: echo "Current Minecraft Bedrock version is ${{ steps.bedrock.outputs.version }}"

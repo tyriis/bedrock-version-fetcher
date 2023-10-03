@@ -1,9 +1,14 @@
 ---
 name: Bedrock Version Fetcher
 description: Get the latest Minecraft Bedrock version
+inputs:
+  url:
+    description: >
+      url where to extract the version information
+    default: https://www.minecraft.net/de-de/download/server/bedrock/
 outputs:
   version:
     description: The latest Minecraft Bedrock version
 runs:
-  using: docker
-  image: Dockerfile
+  using: node20
+  main: dist/index.mjs
