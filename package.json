@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@vercel/ncc": "0.38.1",
-    "eslint": "9.9.1",
+    "eslint": "9.10.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.30.0",
