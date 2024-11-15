@@ -16,7 +16,7 @@
     "@actions/core": "1.11.1",
     "htmlparser2": "9.1.0",
     "node-fetch": "3.3.2",
-    "zx": "8.2.1"
+    "zx": "8.2.2"
   },
   "devDependencies": {
     "@vercel/ncc": "0.38.2",
