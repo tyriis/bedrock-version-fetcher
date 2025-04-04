@@ -18,8 +18,8 @@ importers:
         specifier: 3.3.2
         version: 3.3.2
       zx:
-        specifier: 8.4.2
-        version: 8.4.2
+        specifier: 8.5.0
+        version: 8.5.0
     devDependencies:
       '@vercel/ncc':
         specifier: 0.38.3
@@ -927,8 +927,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zx@8.4.2:
-    resolution: {integrity: sha512-bsbnmb6Dk94QDMH4AtnbdBly2Yfm3Masgta21Pg9gmKU4R9444417KJaPpHOTAsQy0DZhiZHtlKtnRaQEeP4gA==}
+  zx@8.5.0:
+    resolution: {integrity: sha512-XS5/oKOQxKNfG2sVO6TQQjZF5RqWGE5QGSUOCZZVTnvYr3RDBTdbX3IFmV9CrnycCAQWcY0hAD3DDUa4RJE4+w==}
     engines: {node: '>= 12.17.0'}
     hasBin: true
 
@@ -1935,4 +1935,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zx@8.4.2: {}
+  zx@8.5.0: {}
