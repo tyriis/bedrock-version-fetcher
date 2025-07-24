@@ -35,7 +35,7 @@ repos:
         exclude: (dist/.*)
 
   - repo: https://github.com/sirosen/texthooks
-    rev: 0.7.0
+    rev: 0.7.1
     hooks:
       - id: fix-smartquotes
         exclude: (dist/.*)
