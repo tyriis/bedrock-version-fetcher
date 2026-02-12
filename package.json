@@ -13,7 +13,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "1.11.1",
+    "@actions/core": "2.0.3",
     "htmlparser2": "9.1.0",
     "node-fetch": "3.3.2",
     "zx": "8.8.5"
