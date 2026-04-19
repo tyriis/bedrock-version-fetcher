@@ -31,7 +31,7 @@ export const fetchVersion = async (url) => {
     onopentag(tagName, attribs) {
       if (tagName === 'a' && attribs['data-platform'] === 'serverBedrockLinux') {
         version = attribs.href
-          .replace('https://minecraft.azureedge.net/bin-linux/bedrock-server-', '')
+          .replace('https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-', '')
           .replace('.zip', '')
       }
     },
