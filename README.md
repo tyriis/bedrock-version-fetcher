@@ -16,7 +16,9 @@
 
 # Minecraft Bedrock Version Fetcher
 
-This action fetches the lates minecraft bedrock version.
+> **⚠️ This action is no longer working and is not actively maintained or developed.**
+>
+> Data is available as JSON for a full example see: [tyriis/bedrock-tags](https://github.com/tyriis/bedrock-tags/blob/main/.github/workflows/bedrock-tag.yaml#L31-L45)
 
 <details>
   <summary style="font-size:1.2em;">Table of Contents</summary>
